@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>PortCity - Ana Sayfa</title>
+
+<style>
+    body {
+        margin:0;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background:#f3f7fc;
+        color:#003047;
+    }
+
+    /* HEADER */
+    header {
+        background:#002b45;
+        color:white;
+        padding:15px 40px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        position:relative;
+    }
+
+    /* SOL LOGO */
+    .header-left img {
+        height:100px;
+    }
+
+    /* MENÜ ORTADA */
+    .header-center {
+        display:flex;
+        gap:40px;
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    .header-center a {
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+        font-size:16px;
+    }
+
+    .header-center a:hover {
+        text-decoration:underline;
+    }
+
+    /* YENİ PARALLAX HERO */
+    .hero {
+        height: 400px;
+        background-image: url("images/marina.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* parallax etkisi */
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        text-shadow:2px 2px 5px #000;
+    }
+
+    .container {
+        width:85%;
+        margin:auto;
+        padding:40px 0;
+    }
+
+    footer {
+        background:#002b45;
+        color:white;
+        text-align:center;
+        padding:10px;
+        margin-top:40px;
+    }
+</style>
+
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="header-left">
+        <a href="index.html">
+            <img src="images/logo.png" alt="PortCity Logo">
+        </a>
+    </div>
+
+    <nav class="header-center">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkında</a>
+        <a href="services.html">Aktiviteler</a>
+        <a href="contact.html">İletişim</a>
+    </nav>
+</header>
+
+
+<!-- PARALLAX HERO -->
+<div class="hero">
+    <h1>PortCity'e Hoş Geldiniz</h1>
+    <p><b>Deniz</b>, lezzet ve eğlencenin birleştiği yeni sahil deneyimi.</p>
+</div>
+
+<!-- İÇERİK -->
+<div class="container">
+    <p><i>PortCity</i>, modern mimarisi, geniş sosyal alanları ve deniz kenarı yaşam alanlarıyla yeni turizm merkezidir.</p>
+    <p>Her türden aktiviteye sahip, konaklama imkanları sunan, hem deniz hem de doğayla iç içe olan sosyal yaşam alanıdır. </p>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 PortCity — Tüm Hakları Saklıdır</p>
+</footer>
+
+</body>
+</html>

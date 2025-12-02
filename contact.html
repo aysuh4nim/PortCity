@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>İletişim</title>
+<style>
+body { background:#adb6c4; padding:0px; margin:0; font-family:Segoe UI; color:#002b45; }
+header {
+        background:#002b45;
+        color:white;
+        padding:15px 40px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        position:relative;
+    }
+
+    /* SOL LOGO */
+    .header-left img {
+        height:90px;
+    }
+
+    /* MENÜ ORTADA */
+    .header-center {
+        display:flex;
+        gap:40px;
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    .header-center a {
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+        font-size:16px;
+    }
+
+    .header-center a:hover {
+        text-decoration:underline;
+    }
+
+    .hero {
+        height: 400px;
+        background-image: url("images/iletişim.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        text-shadow:2px 2px 5px #000;
+    }
+</style>
+</head>
+<body>
+    <header>
+    <div class="header-left">
+        <a href="index.html">
+            <img src="images/logo.png" alt="PortCity Logo">
+        </a>
+    </div>
+
+    <nav class="header-center">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkında</a>
+        <a href="services.html">Aktiviteler</a>
+        <a href="contact.html">İletişim</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>İletişim</h1>
+</div>
+
+<p><b>Adres:</b> PortCity Marina – Sahil Yolu No:43</p>
+<p><b>Telefon:</b> 0 (538) 123 12 34</p>
+<p><b>Email:</b> <u>info@portcity.gov.tr</u></p>
+
+
+
+<div style="margin:20px 0; display:flex; align-items:flex-start;">
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgcJOkCKK1kCv31An1q3kUVvi9YvrPCFnQqw&s" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgcJOkCKK1kCv31An1q3kUVvi9YvrPCFnQqw&s" 
+             alt="Marina" 
+             style="width:200px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.3); margin-right:15px;">
+    </a>
+    <p style="margin-top:0; font-size:16px;">
+        Daha Detaylı Görmek İçin Tıklayın
+    </p>
+</div>
+
+
+
+
+<h3>Konum:</h3>
+<iframe
+  width="400"
+  height="260"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps?q=Piri+Reis+Üniversitesi,+Tuzla,+İstanbul&hl=tr&z=16&output=embed">
+</iframe>
+
+<br><br>
+<a href="index.html">⬅ Ana Sayfa</a>
+</body>
+</html>

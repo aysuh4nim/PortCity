@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Aktiviteler & Mekanlar</title>
+<style>
+body { background:#adb6c4; margin:0 ; padding:0px; font-family:Segoe UI; color:#002b45; }
+header {
+        background:#002b45;
+        color:white;
+        padding:15px 40px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        position:relative;
+    }
+
+    /* SOL LOGO */
+    .header-left img {
+        height:90px;
+    }
+
+    /* MENÜ ORTADA */
+    .header-center {
+        display:flex;
+        gap:40px;
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    .header-center a {
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+        font-size:16px;
+    }
+
+    .header-center a:hover {
+        text-decoration:underline;
+    }
+
+ .section {
+        margin-bottom:50px;
+    }
+
+    .card {
+        background:#adb6c4;
+        padding:20px;
+        border-radius:10px;
+        box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    }
+    .hero {
+        height: 400px;
+        background-image: url("images/aktiviteler.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* parallax etkisi */
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        text-shadow:2px 2px 5px #000;
+    }
+    table {
+        width:100%;
+        border-collapse:collapse;
+    }
+
+    th, td {
+        padding:12px;
+        border:1px solid #ccc;
+        text-align:center;
+    }
+</style>
+
+
+</head>
+<body>
+        <header>
+    <div class="header-left">
+        <a href="index.html">
+            <img src="images/logo.png" alt="PortCity Logo">
+        </a>
+    </div>
+
+    <nav class="header-center">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkında</a>
+        <a href="services.html">Aktiviteler</a>
+        <a href="contact.html">İletişim</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>PortCity Aktiviteleri</h1>
+</div>
+
+
+
+<p>PortCity’de her yaştan ziyaretçiye uygun eğlence ve sosyal alanlar bulunmaktadır. Haftanın her günü farklı aktivitelerle hizmetinizdeyiz.</p>
+
+
+<div class="section card">
+        <h3>Haftalık Etkinlik Programı</h3>
+
+        <table>
+            <tr>
+                <th>Gün</th>
+                <th>Etkinlik</th>
+            </tr>
+            <tr>
+                <td>Pazartesi</td>
+                <td>Seçili Markalarda %20 İndirim</td>
+            </tr>
+            <tr>
+                <td>Salı</td>
+                <td>Havuz Gösterisi</td>
+            </tr>
+            <tr>
+                <td>Çarşamba</td>
+                <td>Çocuk Eğlenceleri</td>
+            </tr>
+            <tr>
+                <td>Perşembe</td>
+                <td>Havuz Gösterisi</td>
+            </tr>
+            <tr>
+                <td>Cuma</td>
+                <td>Kitap Günü</td>
+            </tr>
+            <tr>
+                <td>Cumartesi</td>
+                <td>Konser</td>
+            </tr>
+            <tr>
+                <td>Pazar</td>
+                <td>Konser</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+<br>
+
+<br><br>
+<a href="index.html">⬅ Ana Sayfa</a>
+</body>
+</html>
